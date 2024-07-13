@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.hero {
+    background-image: url('https://www.shutterstock.com/image-photo/wrist-watch-water-drops-reflection-260nw-302011454.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007BFF;
+}
+
+.hero-content {
+    margin-top: auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.hero-button {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    max-width: 300px;
+    margin: 30px;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    height: 500px; /* Ensure all cards have the same height */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+}
+
+.card-description {
+    margin: 0 0 20px;
+    font-size: 1em;
+    color: #666;
+}
+.cost{
+    margin:0 0 20px;
+    color: brown;
+    font-size: large;
+}
+
+.card-button {
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-1 {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-1:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-2 {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+.btn-3 {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-3:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+.heading{
+    color:#fff;
+    text-align: center;
+}
+
+/* Gallery */
+.gallery {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the gallery items */
+    padding: 30px;
+    background-color: white;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 1.8em; /* Smaller heading size */
+    margin-bottom: 10px;
+    width: 100%; /* Make heading full-width */
+}
+
+.gallery-subtitle {
+    text-align: center;
+    font-size: 1em; /* Smaller subtitle size */
+    margin-bottom: 20px;
+    color: #666; /* Subtle color for the subtitle */
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 0 10px; /* Reduced space between items */
+}
+
+.gallery-item img {
+    width: 100px; /* Set a fixed width for smaller images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Zoom effect on hover */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+}
+
+.gallery-item h3 {
+    font-size: 1.2em; /* Smaller title size */
+    margin: 5px 0; /* Reduced margins */
+}
+
+.gallery-item p {
+    font-size: 1em; /* Smaller price size */
+    color: brown; /* Color for prices */
+    margin: 0;
+}
+
+
+.footer p {
+    color: red; /* Change copyright text color to red */
+    margin: 0; /* Reset margin */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}        
